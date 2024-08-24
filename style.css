@@ -1,0 +1,414 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  .img{
+    margin-left: 15%;
+  }
+  
+  .navbar-brand {
+    width: 10%;
+  }
+  .nes{
+   margin-left: 10%;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .nav-item{
+    margin-left: 5%;
+  }
+  /* .fa-solid{
+    margin-right: 50%;
+    font-size: 20px;
+  } */
+   .back{
+    background-color: white;
+   }
+  .one{
+    background-image: url('https://edge.rode.com/images/page/1/modules/10299/rode-podmic-usb-banner-5910x2155-rgb-1920x700-8c89d38.jpg');
+    height:89vh;
+    width:100vw;
+  background-size: cover;
+  background-position: center;    
+  }
+  .oneone{
+    flex-direction: column;
+    padding:15% 28% 15% 1%;
+    color:white;
+   
+  }
+  #one{
+    font-size:60px;
+    font-weight: bold;
+    margin-left: 14%;
+    
+  }
+  #two{
+    color:rgb(251, 200, 128);
+    font-weight: 150;
+    
+  }
+  .para{
+    font-size:28px;  
+    margin-left: 7%; 
+    margin-bottom:1%;
+  }
+  .para1{
+    font-size: 18px;
+    font-weight: 50%;
+    color:rgb(134, 138, 142);
+    margin-right:35%;
+    margin-bottom: 5%;
+  }
+  .btn{
+    color:rgb(134, 138, 142);
+    border:2px solid none;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 15%;
+  }
+  
+  .btn1{
+    background-color: white;
+    color: black;
+    border:1px solid white;
+    padding:2%;
+    margin-left:2%;
+    border-radius: 5rem;
+    padding:1.5% 6% 1.5% 6%;
+    font-size: large;
+    font-weight:bold; 
+  }
+  .btn1:hover{
+    background-color: black;
+  color:white;
+  }
+  .two{
+    background-image: url('https://edge.rode.com/images/page/1/modules/10167/rode-wireless-me-white-duel-0213-banner-14948x5464-rgb-1921x702-d791c16.jpg');
+    height:89vh;
+    width:100vw;
+  background-size: cover;
+  background-position: center;
+  }
+  .twotwo{
+    flex-direction: column;
+    padding:15% 28% 15% 1%;
+    color:white;
+   
+  }
+  #three{
+    font-size:60px;
+    font-weight: bold;
+    margin-left: 14%;
+    color: white;
+    
+  }
+  #four{
+  background-color:rgba(252, 196, 119, 0.914) ;
+    color:white;
+    font-weight: bold;
+    font-size: 60px;
+    border-radius: 1rem;
+    padding:0 1% 0 1%;
+  
+    
+  }
+  .para2{
+    font-size:28px;  
+    margin-left: 7%; 
+    margin-bottom:1%;
+  }
+  .para3{
+    font-size: 18px;
+    font-weight: 50%;
+    color:rgb(179, 181, 185);
+    margin-right:28%;
+    margin-bottom: 5%;
+  }
+  .btn2{
+    background-color: white;
+    color: black;
+    border:1px solid white;
+    padding:2%;
+    margin-left:25%;
+    border-radius: 5rem;
+    padding:1.5% 6% 1.5% 6%;
+    font-size: large;
+    font-weight:bold; 
+  }
+  .btn2:hover{
+    background-color: black;
+  color:white;
+  }
+  .three{
+    background-image: url('https://edge.rode.com/images/page/1/modules/9958/Wipro-Banner-02-Right-1920x700-8c89d38.jpg');
+    height:89vh;
+    width:100vw;
+  background-size: cover;
+  background-position: center;
+  }
+  .threethree{
+    flex-direction: column;
+    padding:15% 28% 15% 1%;
+    color:white;
+   
+  }
+  #five{
+    font-size:60px;
+    font-weight: bold;
+    margin-left: 14%;
+    color: black;
+    
+  }
+  #six{
+  background-color:rgba(252, 196, 119, 0.914) ;
+    color:white;
+    font-weight: bold;
+    font-size: 60px;
+    border-radius: 1rem;
+    padding:0 1% 0 1%;
+  
+    
+  }
+  .para4{
+    color:black;
+    font-size:28px;  
+    margin-left: 10%; 
+    margin-bottom:1%;
+  }
+  .para5{
+    font-size: 18px;
+    font-weight: 50%;
+    color:rgb(99, 100, 101);
+    margin-right:28%;
+    margin-bottom: 5%;
+  }
+  .btn3{
+    background-color:black;
+    color: white;
+    border:1px solid white;
+    padding:2%;
+    margin-left:25%;
+    border-radius: 5rem;
+    padding:1.5% 6% 1.5% 6%;
+    font-size: large;
+    font-weight:bold; 
+  }
+  .btn3:hover{
+    background-color:white;
+  color:black;
+  border:1px solid black;
+  }
+  .four{
+    background-image: url('https://edge.rode.com/images/page/1/modules/10099/Phone-Cage-Banner-01-1920x700-814605a.jpg');
+    height:89vh;
+    width:100vw;
+  background-size: cover;
+  background-position: center;    
+  }
+  .fourfour{
+    flex-direction: column;
+    padding:10% 28% 15% 1%;
+    color:white;
+   
+  }
+  #seven{
+    font-size:60px;
+    font-weight: bold;
+    margin-left: 14%;
+    
+  }
+  #eight{
+    color:rgb(251, 200, 128);
+    font-weight: 150;
+    
+  }
+  .para6{
+    font-size:28px;  
+    margin-left: 10%; 
+    margin-bottom:1%;
+  }
+  .para7{
+    font-size: 18px;
+    font-weight: 50%;
+    color:rgb(134, 138, 142);
+    margin-right:30%;
+    margin-bottom: 5%;
+    margin-left:2%;
+  }
+  
+  .btn4{
+    background-color: white;
+    color: black;
+    border:1px solid white;
+    padding:2%;
+    margin-left:20%;
+    border-radius: 5rem;
+    padding:1.5% 6% 1.5% 6%;
+    font-size: large;
+    font-weight:bold; 
+  }
+  .btn4:hover{
+    background-color: black;
+  color:white;
+  }
+  .head {
+    text-decoration: underline;
+    font-size: 400;
+    text-align: center;
+  }
+  
+  .section5 {
+    background-color: white;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-bottom: 0%;
+    padding-top:3% ;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .rode1 {
+    background-color: white;
+    padding: 3%;
+    border-radius: 10px;
+    width: 50%;
+    /* margin: 3%; */
+  
+  }
+  
+  .rode1 h2 {
+    
+    font-size: 32px;
+  }
+  .rode1 h5{
+    margin-top: 2%;
+  }
+  
+  .rode1 .btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 1.5% 3%;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+  .rode1 .btn:hover{
+    background-color: white;
+    color:black;
+  }
+  
+  .section6 {
+    background-color: white;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .head1 {
+    color: GRAY;
+    font-size: 42PX;
+    text-align: center;
+  }
+  
+  .section7{
+    position: absolute;
+    width: 80%;
+    /* height: 25%; */
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  .rode2 {
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5357%2Fmicrophones-module-1200x300-rgb.png");
+    background-position: center;
+    background-size: cover;
+    width: 80vw;
+    height: 25vh;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+    display: flex;
+    align-content: center;
+  }
+  
+  .section7 h1 {
+    color: whitesmoke;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .rode3 {
+    background-image: url("https://rode.com/assets/images%2Fpage%2F1%2Fmodules%2F5359%2Finterfaces-module-2022-1200x300-rgb.jpg");
+    background-size: cover;
+    width: 80vw;
+    height: 25vh;
+    padding: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    align-content: center;
+  }
+  
+  .rode4 {
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5361%2Fsoftware-module-2021-1200x300-rgb.png");
+    background-size: cover;
+    width: 80vw;
+    height: 25vh;
+    padding: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    align-content: center;
+  }
+  
+  .rode5 {
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5370%2Faccessories-module-2021-1200x300-rgb.png");
+    background-size: cover;
+    width: 80vw;
+    height: 25vh;
+    padding: 1%;
+    margin-bottom: 5%;
+    display: flex;
+    align-content: center;
+  }
+  
+  .section8 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75%;
+    /* align-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* padding-left: 15%; */
+  }
+  .para{
+    font-size: 24px;
+    margin-left: 10%;
+    font-weight: 700;
+  }
+  .section8 .btn{
+    border-radius:30px ;
+  }
+  .foot{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+  }
+  .aws{
+    font-size: 22px;
+    padding-right: 2%;
+  }
+  .col-lg-4 i:hover{
+    cursor:pointer ;
+  }
